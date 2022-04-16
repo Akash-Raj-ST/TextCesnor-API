@@ -111,4 +111,4 @@ def register(request):
         else:
             data = {"message": "Not Valid"}
         return Response(data, status=status.HTTP_401_UNAUTHORIZED)
-    return Response({"Register page ERROR!!!"}, status=status.HTTP_401_UNAUTHORIZED)
+    return Response(data, status=status.HTTP_401_UNAUTHORIZED)
