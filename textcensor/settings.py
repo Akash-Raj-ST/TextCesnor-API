@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'api.apps.ApiConfig',
     'authentication.apps.AuthenticationConfig',
+    'recharge.apps.RechargeConfig',
     'rest_framework',
 ]
 
