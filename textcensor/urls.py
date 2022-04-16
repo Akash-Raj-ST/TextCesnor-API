@@ -17,10 +17,12 @@ from django.contrib import admin
 from django.urls import path,include
 from api import urls as api_urls
 from authentication import urls as auth_urls
+from recharge import urls as recharge_urls
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/',include(api_urls)),
     path('auth/', include(auth_urls)),
+    path('recharge/', include(recharge_urls)),
 
 ]
