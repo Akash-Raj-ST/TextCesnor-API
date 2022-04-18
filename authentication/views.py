@@ -49,7 +49,8 @@ def login(request):
             data = {
                 "message": "Login Successful",
                 "user_id": user_id,
-                "api_key": api_key
+                "username":user_obj.username,
+                "api_key": api_key,
                 }
 
             print("Login successful")
