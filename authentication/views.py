@@ -105,6 +105,7 @@ def register(request):
             data = {
                 "message": "Account created Successfully",
                 "user_id": user_obj.user_id, 
+                "username": user_obj.username,
                 "api_key": api_key,
                 }
 
