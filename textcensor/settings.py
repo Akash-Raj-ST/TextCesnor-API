@@ -60,10 +60,9 @@ MIDDLEWARE = [
 CORS_ORIGIN_ALLOW_ALL = False
 CORS_ORIGIN_WHITELIST = (
     'http://localhost:3000',
-    'text-censor.herokuapp.com',
 )
 CORS_ALLOW_HEADERS = ['*']
-CORS_ALLOWED_ORIGINS = ['http://localhost:3000', 'text-censor.herokuapp.com']
+CORS_ALLOWED_ORIGINS = ['http://localhost:3000',]
 
 
 ROOT_URLCONF = 'textcensor.urls'
