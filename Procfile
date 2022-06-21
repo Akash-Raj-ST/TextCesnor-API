@@ -1,0 +1,1 @@
+web: gunicorn textcensor.wsgi --log-file -
