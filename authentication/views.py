@@ -51,7 +51,7 @@ def login(request):
                 "user_id": user_id,
                 "username":user_obj.username,
                 "api_key": api_key,
-                }
+            }
 
             print("Login successful")
             return Response(data, status=status.HTTP_202_ACCEPTED)

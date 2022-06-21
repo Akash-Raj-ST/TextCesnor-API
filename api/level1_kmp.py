@@ -4,12 +4,12 @@ def check(text, pattern):
     # base case 1: pattern is empty
     if not pattern:
         print('The pattern occurs with shift 0')
-        return
+        return text
 
     # base case 2: text is empty, or text's length is less than that of pattern's
     if not text or len(pattern) > len(text):
         print('Pattern not found')
-        return
+        return text
 
     chars = list(pattern)
 
@@ -48,7 +48,7 @@ def KMP(content):
     pattern = ["fuck", "bitch", "asshole"]
     for x in pattern:
         text = check(text, x)
-    print("returnin"+text)
+    print("returning: "+text)
     return text
 
 
